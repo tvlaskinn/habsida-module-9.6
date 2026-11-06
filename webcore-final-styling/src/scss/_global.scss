@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background-color: $color-background;
+    color: $color-black;
+    font-family: 'TT Lakes', sans-serif
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.main {
+  width: 100%;
+}
+
+@media (min-width: 1366px) {
+  .main {
+    width: calc(100% - 320px);
+    margin-left: 320px;
+  }
+}
