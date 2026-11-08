@@ -1,5 +1,5 @@
 # Webpack Static Site Starter Kit
-
+https://tvlaskinn.github.io/habsida-module-9.6/
 ## Требования к проекту
 
 - [Node 20.17.0](https://nodejs.org/en/download/package-manager)
